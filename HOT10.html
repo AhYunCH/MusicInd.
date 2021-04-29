@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href=style.css>
+        <title>MusicInd.</title>
+        <style>
+            #myBtn {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+    
+            #myBtn:hover {
+              background-color: #555;
+            }
+            </style>
+    </head>
+    <header>
+        <div class="logo_container">
+            <h1>Music<span>Ind.</span></h1>
+        </div>
+        <img class="resize" src="2010s.png" alt="2010ssinger" >
+    </header>
+    <body class="bg">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <div class="header">
+                    <nav>
+                        <ul>
+                            <li><a href="MusicInd.html">Home</a></li>
+                            <li><a href="#">Singers</a>
+                                <ul>
+                                    <li><a href="FSinger.html">Female&#x1F469</a></li>
+                                    <li><a href="MSinger.html">Male&#x1F468</a></li>
+                                    <li><a href="KPSinger.html">Kpop</a></li>
+                                </ul>
+                            </li>    
+                            <li><a href="#">Songs</a>
+                                <ul>
+                                    <li><a href="Newest.html">Newest</a></li>
+                                    <li><a href="HOT10.html">Hot 10 Chart</a></li>
+                                    <li><a href="DevFav.html">Dev Fav'</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="About.html">About</a></li>    
+                        </ul>    
+                    </nav>
+            </div>
+            <div class="Contentbox"style="background-color: rgba(246,155,143,0.8);">
+                <h>Billboard Hot 10</h>
+                <TABLE BORDER="0"    WIDTH="100%"   CELLPADDING="5" CELLSPACING="1">
+                    <TR>
+                       <TH COLSPAN="2"><BR><H3 style="float:right" word-spacing="20cm">This Week&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Week&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weeks On Chart</H3>
+                       </TH>
+                    </TR>
+                    <TR>
+                       <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Polo_G_-_Rapstar.png/220px-Polo_G_-_Rapstar.png" alt="Rapstar">
+                        <a href="https://www.youtube.com/watch?v=w2IhccXakkE" style="color: black;text-decoration:underline;"><u>RAPSTAR</u><br><span style="font-size: 20px;">Polo G(Rap)</span></TD>
+                       <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">1(New)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://i1.wp.com/thequeerreview.com/wp-content/uploads/2021/03/Exby2bcU4AIVeVI.jpeg?fit=2048%2C2048&ssl=1" alt="Montero">
+                        <a href="https://www.youtube.com/watch?v=6swmTBVI83k" style="color: black;text-decoration:underline;"><u>MONTERO (Call Me By Your Name)</u><br><span style="font-size: 20px;">Lil Nas X(Rap)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">2&#x27A1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://lineimg.omusic.com.tw/img/album/3966724.jpg?v=20210308172630" alt="Leave The Door Open">
+                        <a href="https://www.youtube.com/watch?v=adLGHcj_fmA" style="color: black;text-decoration:underline;"><u>Leave The Door Open</u><br><span style="font-size: 20px;">Silk Sonic(Bruno Mars & Anderson .Paak)(R&B Soul)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">3&#x2B07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://upload.wikimedia.org/wikipedia/en/0/0a/Justin_Bieber_-_Peaches.png" alt="Peaches">
+                        <a href="https://www.youtube.com/watch?v=tQ0yjYUFKAE" style="color: black;text-decoration:underline;"><u>Peaches</u><br><span style="font-size: 20px;">Justin Bieber Featuring Daniel Caesar & Giveon(Pop R&B)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">4&#x2B07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://i1.sndcdn.com/artworks-MQSh41Kh8VRIQmZ4-7pwmIw-t500x500.jpg" alt="Save Your Tears">
+                        <a href="https://www.youtube.com/watch?v=XXYlFuWEuKIE" style="color: black;text-decoration:underline;"><u>Save Your Tears</u><br><span style="font-size: 20px;">The Weeknd(R&B)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">5&#x2B06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://lineimg.omusic.com.tw/img/album/2888920.jpg?v=20201008144214" alt="Levitating">
+                        <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw" style="color: black;text-decoration:underline;"><u>Levitating</u><br><span style="font-size: 20px;">Dua Lipa Featuring Dababy(Pop)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">6&#x2B06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://images.genius.com/19429ff545d02b42ca398fc33f2b184d.1000x1000x1.jpg" alt="Kiss Me More">
+                        <a href="https://www.youtube.com/watch?v=0EVVKs6DQLo" style="color: black;text-decoration:underline;"><u>Kiss Me More</u><br><span style="font-size: 20px;">Doja Cat Featuring SZA(Pop R&B Hip-Hop)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">7(-)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://thefader-res.cloudinary.com/private_images/w_760,c_limit,f_auto,q_auto:best/cardi_up_ehqgrb/cardi-b-dropping-new-single-up-this-week.jpg" alt="Up">
+                        <a href="https://www.youtube.com/watch?v=rCiBgLOcuKU" style="color: black;text-decoration:underline;"><u>Up</u><br><span style="font-size: 20px;">Cardi B(Hip-Hop)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">8&#x2B07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://upload.wikimedia.org/wikipedia/en/0/09/Drivers_License_by_Olivia_Rodrigo.png" alt="Driver License">
+                        <a href="https://www.youtube.com/watch?v=ZmDBbnmKpqQ" style="color: black;text-decoration:underline;"><u>Driver License</u><br><span style="font-size: 20px;">Olivia Rodrigo(Bedroom Pop)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">9&#x2B07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14</TD>
+                    </TR>
+                    <TR>
+                      <TD width="700px" style="font-size: 35px;"ALIGN="Middle"><img style="float:left" width="200px" src="https://upload.wikimedia.org/wikipedia/en/7/75/Masked_Wolf_-_Astronaut_in_the_Ocean.png" alt="Astronaut In The Ocean">
+                        <a href="https://www.youtube.com/watch?v=MEg-oqI9qmw" style="color: black;text-decoration:underline;"><u>Astronaut In The Ocean</u><br><span style="font-size: 20px;">Masked Wolf(Hip-Hop)</span></TD>
+                      <TD ALiGN="RIGHT" style="font-size: 50px;color:cadetblue">10&#x27A1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9</TD>
+                    </TR>
+                 </TABLE>
+            </div>
+    </body>
+</html>

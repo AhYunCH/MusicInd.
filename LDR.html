@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href=style.css>
+        <title>MusicInd.</title>
+        <style>
+            #myBtn {
+              display: none;
+              position: fixed;
+              bottom: 90px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+    
+            #myBtn:hover {
+              background-color: rgb(17, 104, 85);
+            }
+
+            #Back {
+              display: block;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 20px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: #F69B8F;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+    
+            #Back:hover {
+              background-color: rgb(17, 104, 85);
+            }
+            </style>
+    </head>
+    <header>
+        <div class="logo_container">
+            <h1 style="color:rgb(104, 103, 48)">Music<span>Ind.</span></h1>
+        </div>
+        <img class="resize" style="width:0px;">
+    </header>
+    <body class="LDR">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <button onclick="goBack()" id="Back" title="Go Back">Go Back</button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+            <div class="header">
+                    <nav>
+                        <ul>
+                            <li><a href="MusicInd.html">Home</a></li>
+                            <li><a href="#">Singers</a>
+                                <ul>
+                                    <li><a href="FSinger.html">Female&#x1F469</a></li>
+                                    <li><a href="MSinger.html">Male&#x1F468</a></li>
+                                    <li><a href="KPSinger.html">Kpop</a></li>
+                                </ul>
+                            </li>    
+                            <li><a href="#">Songs</a>
+                                <ul>
+                                    <li><a href="Newest.html">Newest</a></li>
+                                    <li><a href="HOT10.html">Hot 10 Chart</a></li>
+                                    <li><a href="DevFav.html">Dev Fav'</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="About.html">About</a></li>  
+                        </ul>    
+                    </nav>
+            </div>
+            <div class="Contentbox" style="background-color: rgba(219, 241, 253,0.8);">
+                <h style="color:rgb(167, 165, 76);font-size: 50px;font-family: Lucida Handwriting;">Lana Del Rey</h>
+                <div class="row" style="word-spacing: 8px;font-size:22px;color:#515549;line-height: 2;">
+                    <img style="float:right;width:600px;height:600px;"src="https://i.pinimg.com/originals/9b/82/dd/9b82dd420211540b59b9ff5ba7184814.jpg">
+                    <span style="color:rgb(29, 29, 141)"><br>Elizabeth Woolridge Grant</span>, professionally known as <span style="color:rgb(29, 29, 141)">Lana Del Rey</span> was born in New York City, New York, on June 21, 1985. 
+                    She released her major-label debut,<span style="color:rgb(29, 29, 141)">Born to Die</span>, on January 27, 2012. Its singles, including "<span style="color:rgb(29, 29, 141)">Blue Jeans</span>" and "<span style="color:rgb(29, 29, 141)">National Anthem</span>". 
+                    The album was a commercial success, being one of only four albums released by a female artist to have spent more than 300 weeks on the Billboard 200 chart. She re-released Born to Die with 8 new tracks, 
+                    as well as a standalone EP, <span style="color:rgb(29, 29, 141)">Paradise</span>, on November 9, 2012.On June 13, 2014, Del Rey released her sophomore major-label album, <span style="color:rgb(29, 29, 141)">Ultraviolence</span>.
+                    The album was received warmly by critics who appreciated her shift towards a rawer sound.
+                    On September 18, 2015, Del Rey released her third major-label album,  <span style="color:rgb(29, 29, 141)">Honeymoon</span>, which was preceded by two singles, " <span style="color:rgb(29, 29, 141)">High By The Beach</span>" and "<span style="color:rgb(29, 29, 141)">Music To Watch Boys To</span>". 
+                    featuring trap influences and a lush sound that contrasted sharply from her previous album. On July 21, 2017, Del Rey released her fourth major-label album, <span style="color:rgb(29, 29, 141)">Lust For Life</span>. The album included singles such as 
+                    "<span style="color:rgb(29, 29, 141)">Love</span>", "<span style="color:rgb(29, 29, 141)">Lust for life</span>" (featuring The Weeknd).Norman Fucking Rockwell!, her fifth major-label album, was released on August 30, 2019, to widespread critical acclaim.
+                    Her sixth major-label album Chemtrails Over the Country Club was released March 19, 2021, again to critical acclaim. The album saw the release of three singles: "<span style="color:rgb(29, 29, 141)">Let Me Love You Like A Woman</span>", "<span style="color:rgb(29, 29, 141)">Chemtrails Over The Country Club</span>" 
+                    and "<span style="color:rgb(29, 29, 141)">White Dress</span>".
+                    <br>
+                    <iframe src="https://open.spotify.com/embed/track/5kMAugdkH2coRHRnW5FuDb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/4RnVVU2wewkcPYEZAMFBrr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/5Y6nVaayzitvsD5F7nr3DV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/7g3htkaLz4ETFn0cifwM3y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <br><br>
+                    <iframe src="https://open.spotify.com/embed/track/2Kerz9H9IejzeIpjhDJoYG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/0Oqc0kKFsQ6MhFOLBNZIGX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/7bPWdJgx8vek7S5i5yAtvG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <br><br>
+                    <h style="color:rgb(141, 96, 37);font-size: 50px;font-family: Lucida Handwriting;">Media</h>
+                    <a href="https://mobile.twitter.com/LanaDelRey"style="text-decoration:underline;color:rgb(113, 115, 117);font-size: 50px;font-family: Lucida Handwriting;"><u><br>Twitter</u>
+                        <a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg"style="text-decoration:underline;color:rgb(113, 115, 117);font-size: 50px;font-family: Lucida Handwriting;"><u><br>Youtube</u>
+                            <a href="https://www.instagram.com/lanadelrey/"style="text-decoration:underline;color:rgb(113, 115, 117);font-size: 50px;font-family: Lucida Handwriting;"><u><br>Instagram</u>
+                </div>
+            </div>
+    </body>
+</html>

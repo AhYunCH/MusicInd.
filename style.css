@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    min-width: 1900px;
+}
+
+.header{
+    width: 80%;
+    height: 80px;
+    display: block;
+    margin: auto;
+    background-color: #F69B8F;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    margin: auto;
+    width: 250px;
+    height: 300px;
+}
+
+.logo_container h1{
+    color: #FAB09E;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family:'Lucida Handwriting';
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 200px;
+}
+
+.logo_container h1 span {
+    font-weight: 100;
+}
+
+.AG {
+    background-image: url('https://wallpaperaccess.com/full/4483244.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.LDR {
+    background-image: url('https://www.abc.net.au/cm/rimage/13050628-16x9-large.jpg?v=2');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.TS {
+    background-image: url('https://i.redd.it/1fqxu6t3f2h61.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.WB {
+    background-image: url('https://i.pinimg.com/originals/46/8e/d9/468ed954ed183b65b270f8614865e534.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.CG {
+    background-image: url('https://wallpaperaccess.com/full/3218843.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.PS {
+    background-image: url('https://www.pinksweatsmusic.com/sites/g/files/g2000009991/files/video_thumbnails/irQzUJK7zdE.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.LB {
+    background-image: url('https://i2.wp.com/celebmix.com/wp-content/uploads/2018/08/lab.jpg?fit=1440%2C960&ssl=1');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.GC {
+    background-image: url('https://blog.ticketmaster.com/wp-content/uploads/GreysonChance-1-1024x683.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.BP {
+    background-image: url('https://pressone.ph/wp-content/uploads/2020/10/Untitled-design-12.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.BTS {
+    background-image: url('https://www.nawpic.com/media/2020/bts-desktop-nawpic-21.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.MMM {
+    background-image: url('https://wallpaperaccess.com/full/1452829.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.TWC {
+    background-image: url('https://pbs.twimg.com/media/EZCTfPNVAAE7gLs.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.bg {
+    background-image: url('https://vignette.wikia.nocookie.net/lanadelrey/images/8/81/CG_NFR_3_1.jpg/revision/latest?cb=20200503181135');
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    white-space: normal;
+}
+
+.resize {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    display: block;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #F69B8F;
+    margin: auto;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color:white;
+    font-size: 24px;
+    padding: 25px 50px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #F69B8F;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: lightblue;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+    color: #F69B8F;
+    border-radius: 5px;
+}
+
+.Contentbox{
+    width: 79%;
+    height: 2250px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    margin: auto;
+    background-color: #F69B8F;
+}
+
+.Contentbox h {
+    padding: 50px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    color: red;
+}
+
+.Contentbox p {
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    margin: auto;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+    height: 1000px;
+}
+
+.row p {
+    padding-bottom: 50px;
+}
+
+.Photo {
+    float: left;
+    width: 45%;
+    padding: 30px;
+    width: 450px;
+    height: 450px;
+}
+
+.figcap {
+    color: rgba(33, 37, 33, 0.61);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.lyrics-box {
+    color: transparent;
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.lyrics-box p{
+    font-size: 20px;
+}
+
+.lyrics {
+    display: inline;
+    width: 500px;
+}
+
+.rowsinger {
+    content: "";
+    clear: both;
+    display: block;
+    height: 550px;
+}
+
+.rowsingerA {
+    content: "";
+    clear: both;
+    display: block;
+    height: 350px;
+}
+
+.rowsingerL {
+    content: "";
+    clear: both;
+    display: block;
+    height: 450px;
+}
+
+.rowsinger a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+
+.rowsinger a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: .1cm;
+    width: 100%;
+    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+    z-index: -1;
+    transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+.rowsingerL a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: .1cm;
+    width: 100%;
+    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+    z-index: -1;
+    transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+.rowsingerA a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: .1cm;
+    width: 100%;
+    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+    z-index: -1;
+    transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+.rowsingerA a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+
+.rowsingerL a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+
+.rowsinger a:hover::after {
+    height: .2em;
+  }
+
+.rowsingerA a:hover::after {
+    height: .2em;
+}
+
+.rowsingerL a:hover::after {
+    height: .2em;
+}
+@keyframes color-change {
+    0% { color: rgb(255, 0, 0); }
+    25%  { color: rgb(255, 255, 0); }
+    50% { color: rgb(0, 255, 0); }
+    75% { color: rgb(38, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+}
+
+.glow {
+    font-size: 30px;
+    color: rgb(223, 19, 19);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6
+    }
+  }
+
+#username {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    width:300px;
+    border-bottom: 1px solid #671121;
+    font-size:26px;
+    color:#116757;
+}
+
+#password {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    width:300px;
+    border-bottom: 1px solid #671121;
+    font-size:26px;
+    color:#116757;
+}
+
+#password_again {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    width:300px;
+    border-bottom: 1px solid #671121;
+    font-size:26px;
+    color:#116757;
+}
+
+#Enter {
+    background-color:rgba(0, 0, 0, 0);
+    color:#671121;
+    border: none;
+    outline:none;
+    height:60px;
+    width:150px;
+    font-size:50px;
+}
