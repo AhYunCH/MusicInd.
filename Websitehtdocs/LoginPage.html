@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href=style.css>
+        <title>MusicInd.</title>
+        <script type="text/javascript">
+            function validate (){
+            var REname = /^[a-zA-Z\s]+$/;
+            var REpassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{6,}$/;
+            var msg = "";
+
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var password_again = document.getElementById("password_again").value;
+
+            if (!REname.test(username)) 
+                msg += "- Name\n";
+            if (!REpassword.test(password))
+                msg += "- Password\n";
+            if(password_again != password) 
+                msg += "Password_again must be same as password\n";
+            if (msg != "")
+                alert("The following inputs are invalid:\n" + msg);
+            else
+                alert("All inputs are valid.");
+            }
+        </script>
+    </head>
+    <body class="bg" align="center" style="padding-top:10%;font-size: 50px;color:#671121;font-family: Lucida Handwriting;">
+        <form action="login.php" method="POST">
+            <label for="username" >Username:</label>
+            <input type="text" id="username" name="username" style="text-transform: uppercase;height:40px;" minlength="1" maxlength="30" size="35"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="6" maxlength="8" size="10"><br>
+            <label for="password_again">Password_again:</label>
+            <input type="password" id="password_again" name="password_again" minlength="6" maxlength="8" size="10">
+            <input type="submit" id="Enter"value="Enter" onclick="validate()"/>
+        </form>
+    </body>
+</html>
